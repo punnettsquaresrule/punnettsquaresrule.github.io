@@ -2,3 +2,24 @@
 layout: default
 ---
 
+{% for post in site.posts reversed %}
+
+<div class="post-section" style="background-color: {{ post.color }};">
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+              <div class="post-description">{{ post.description | markdownify }}</div>
+              <a class="btn btn-post" href="{{ post.url }}" role="button">{{ post.button_title }}</a>
+              <div class="post-cover-image">
+                <img src="{{ post.cover_image | prepend: "assets/images/posts/" | prepend: site.baseurl }}" />
+              </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+  </div>
+
+</div>
+
+{% endfor %}

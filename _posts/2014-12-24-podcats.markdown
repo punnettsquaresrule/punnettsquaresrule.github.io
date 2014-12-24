@@ -1,0 +1,11 @@
+---
+layout: post
+title: Podcats
+subtitle: Discover podcasts you love
+color: "#E35050"
+description: "I made an app called [Podcats](http://podcatsapp.com). It helps people find new podcasts to obsess about." # Supports Markdown format
+button_title: View case study 
+cover_image: "podcats_cover.png"
+permalink: /podcats
+date:   2014-12-24 00:00:00
+---

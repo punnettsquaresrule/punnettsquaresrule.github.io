@@ -1,5 +1,5 @@
 /**
- * Site header
+ * Header
  */
 
 .site-header {
@@ -25,9 +25,8 @@
     padding: 30px 44px;
 }
 
-.header-circle {
+.intro-text {
     h2, p {
-        font-family: "Montserrat", sans-serif; /* TODO: Replace with google font */
         margin: 10px 0;
     }
 
@@ -41,7 +40,7 @@
     }
 
     em {
-        font-family: "Lobster", sans-serif; /* TODO: Replace with google font */
+        font-family: "Lobster", sans-serif; /* TODO: Use google font */
         font-size: 39px;
         font-style: normal;
     }
@@ -54,3 +53,32 @@ hr.dash {
     height:0;
 }
 
+/**
+ * Post sections
+ */
+
+.post-section {
+    padding: 75px 0;
+    text-align: center;
+}
+
+.post-description {
+    margin-bottom: 40px;
+}
+
+.btn-post {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 11px;
+    font-size: 1em;
+    line-height: 1em;
+    color: $text-color;
+    margin-bottom: 70px;
+}
+
+.btn-post:hover {
+    color: darken($text-color, 15%);
+    border-color: darken($text-color, 15%);
+    box-shadow: none;
+}
