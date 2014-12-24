@@ -40,7 +40,7 @@
     }
 
     em {
-        font-family: "Lobster", sans-serif; /* TODO: Use google font */
+        font-family: "Lobster", serif; /* TODO: Use google font */
         font-size: 39px;
         font-style: normal;
     }
@@ -81,4 +81,83 @@ hr.dash {
     color: darken($text-color, 15%);
     border-color: darken($text-color, 15%);
     box-shadow: none;
+}
+
+/** 
+ * Footer
+ */
+
+ .blog-section {
+    padding: 75px 0;
+    text-align: center;
+    background-color: #9E3030;
+ }
+
+ .blog-section-link {
+    a {
+        font-size: 30px;
+    }
+ }
+
+ .about-section {
+    padding: 75px 0;
+    text-align: center;
+    background-color: #E35050;
+
+    h1 {
+        font-family: "Lobster", serif; /* TODO: Use google font */
+        font-size: 40px;
+    }
+ }
+
+ .about-image {
+    margin-bottom: 25px;
+ }
+
+ .about-name {
+    margin-bottom: 25px;
+ }
+
+ .about-description {
+    margin-bottom: 55px;
+ }
+
+ .social-icons {
+    text-align: center;
+
+    a {
+        transition: all .3s ease-in-out;
+    }
+ }
+
+ .btn-social {
+    display: inline-block;
+    background-color: $link-color;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .2s ease-in-out;
+ }
+
+ .btn-social:hover {
+    background-color: darken($link-color, 15%);
+    box-shadow: none;
+}
+
+.btn-mail {
+    background-image: url("../assets/images/social_icons/mail.png");
+}
+
+.btn-linkedin {
+    background-image: url("../assets/images/social_icons/linkedin.png");
+}
+
+.btn-dribbble {
+   background-image: url("../assets/images/social_icons/dribbble.png");
+}
+
+.btn-twitter {
+   background-image: url("../assets/images/social_icons/twitter.png");
 }

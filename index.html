@@ -2,9 +2,13 @@
 layout: default
 ---
 
-{% for post in site.posts reversed %}
+{% for post in site.posts %}
 
+{% if post.background_image %}
+<div class="post-section" style="background-image: url({{ post.background_image | prepend: "assets/images/posts/" | prepend: site.baseurl  }}); background-size:cover">
+{% else %}
 <div class="post-section" style="background-color: {{ post.color }};">
+{% endif %}
 
   <div class="container">
     <div class="row">
