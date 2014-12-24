@@ -1,0 +1,56 @@
+/** 
+ * Media queries
+ */
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+/* 
+* Serrated borders
+*/
+
+@mixin border-top-serrated($size, $color-outer) {
+    & {
+        position: relative;
+    }  
+    &:before {
+        top: 0px;
+        background-position: left top;
+        @include background(linear-gradient(-135deg, transparent 75%, $color-outer 75%) 0 50%, linear-gradient(135deg, transparent 75%, $color-outer 75%) 0 50%);
+        @include border-serrated-helper($size, $color-outer);
+    }
+}
+@mixin border-bottom-serrated($size, $color-outer) {
+    & {
+        position: relative;
+        padding-bottom: $size;
+    }
+    &:after {
+        bottom: 0px;
+        background-position: left bottom;
+        @include background(linear-gradient(-45deg, $color-outer $size / 2, transparent 0), linear-gradient(45deg, $color-outer $size / 2, transparent 0));
+        @include border-serrated-helper($size, $color-outer);
+    }
+}
+
+@mixin border-serrated-helper($size, $color-outer) {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: -$size;
+    width: 100%;
+    height: $size;
+    background-repeat: repeat-x;
+    background-size: $size $size;
+}

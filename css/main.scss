@@ -1,11 +1,12 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
-
-
-// Our variables
+/** 
+ * Global style
+ */
 $base-font-family: "Montserrat", Arial, sans-serif; /* TODO: add google font */
 $base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
@@ -25,62 +26,17 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$serrated-border-height: 47px;
 
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-/* border-serrated - a zig zag triangle border with linear gradient
-*/
-@mixin border-top-serrated($size, $color-outer) {
-    & {
-        position: relative;
-        padding-top: $size;
-    }  
-    &:before {
-        top: 0px;
-        background-position: left top;
-        @include background(linear-gradient(-135deg, $color-outer $size / 2, transparent 0), linear-gradient(135deg, $color-outer $size / 2, transparent 0));
-        @include border-serrated-helper($size, $color-outer);
-    }
-}
-@mixin border-bottom-serrated($size, $color-outer) {
-    & {
-        position: relative;
-        padding-bottom: $size;
-    }
-    &:after {
-        bottom: 0px;
-        background-position: left bottom;
-        @include background(linear-gradient(-45deg, $color-outer $size / 2, transparent 0), linear-gradient(45deg, $color-outer $size / 2, transparent 0));
-        @include border-serrated-helper($size, $color-outer);
-    }
-}
-
-@mixin border-serrated-helper($size, $color-outer) {
-    content: " ";
-    display: block;
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: $size;
-    background-repeat: repeat-x;
-    background-size: $size $size;
-}
+/** 
+ * Includes
+ */
+@import "bourbon";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "mixins";
+@import "base";
+@import "layout";
+@import "syntax-highlighting";
+@import "post-styles";

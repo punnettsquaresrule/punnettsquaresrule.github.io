@@ -2,8 +2,12 @@
  * Header
  */
 
+$header-padding: 52px;
+
 .site-header {
     background-image: url("../assets/images/header_pattern.png");
+    padding: $header-padding 0;
+    padding-bottom: $serrated-border-height + $header-padding;
 }
 
 .header-circle {
@@ -11,7 +15,7 @@
     height: 308px;
     background-color: #E35050;
     border-radius: 50%;
-    margin:52px auto;
+    margin:0 auto;
     padding-top:13px;
 }
 
@@ -57,8 +61,11 @@ hr.dash {
  * Post sections
  */
 
+ $section-padding: 75px;
+
 .post-section {
     padding: 75px 0;
+    padding-bottom: $serrated-border-height + $section-padding;
     text-align: center;
 }
 
@@ -91,6 +98,8 @@ hr.dash {
     padding: 75px 0;
     text-align: center;
     background-color: #9E3030;
+
+    @include border-top-serrated($serrated-border-height, #9E3030);
  }
 
  .blog-section-link {
@@ -124,10 +133,6 @@ hr.dash {
 
  .social-icons {
     text-align: center;
-
-    a {
-        transition: all .3s ease-in-out;
-    }
  }
 
  .btn-social {
@@ -158,6 +163,6 @@ hr.dash {
    background-image: url("../assets/images/social_icons/dribbble.png");
 }
 
-.btn-twitter {
-   background-image: url("../assets/images/social_icons/twitter.png");
+.btn-tumblr {
+   background-image: url("../assets/images/social_icons/tumblr.png");
 }

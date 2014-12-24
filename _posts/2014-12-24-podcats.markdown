@@ -8,4 +8,5 @@ button_title: View case study
 cover_image: "podcats_cover.png"
 permalink: /podcats
 date:   2014-12-24 00:00:00
+style: podcats
 ---
