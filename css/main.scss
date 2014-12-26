@@ -16,7 +16,6 @@ $spacing-unit:     30px;
 
 $text-color:       #FFF;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
 $link-color:       #FFB848;
 
 $grey-color:       #828282;
@@ -38,5 +37,24 @@ $serrated-border-height: 47px;
 @import "mixins";
 @import "base";
 @import "layout";
-@import "syntax-highlighting";
-@import "post-styles";
+
+
+/** 
+ * Post styles
+ */
+
+{% for post in site.posts %}
+
+.post-style-{{ post.title | slugify }} {
+
+  {% if post.background_image  %}
+    background-image: url("../assets/images/posts/{{ post.background_image }}");
+  {% endif %}
+
+  {% if post.color %}
+    background-color: {{ post.color }};
+    @include border-top-serrated($serrated-border-height, {{ post.color }});
+  {% endif %}
+}
+
+{% endfor %}
