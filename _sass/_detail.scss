@@ -1,0 +1,22 @@
+/** 
+ * Header
+ */
+
+ .header-detail {
+  height: 100px;
+
+    .logo {
+      font-family: "Lobster", cursive;
+      font-size: 30px;
+      float: left;
+    }
+
+    .contact-button {
+      float: right;
+    }
+
+    .header-content {
+      // clear: both;
+      text-align: center;
+    }
+ }
