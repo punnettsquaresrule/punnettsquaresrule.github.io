@@ -82,6 +82,10 @@ hr.dash {
     line-height: 1em;
     color: $text-color;
     margin-bottom: 70px;
+
+    i {
+        margin-left: 5px;
+    }
 }
 
 .btn-post:hover {
