@@ -12,3 +12,21 @@ date:   2014-12-24 00:00:00
 # Style information
 color: "#E35050"
 ---
+
+### The problem
+
+Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+
+![iTunes Top Podcasts](/assets/images/posts/podcats_problem.png "iTunes Top Podcasts")
+
+### Concept
+
+Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+
+![Podcats sketch](/assets/images/posts/podcats_concept.png "Podcats sketch")
+
+### Wireframing
+
+Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+
+![Podcats wireframes](/assets/images/posts/podcats_wireframes.png "Podcats wireframes")
