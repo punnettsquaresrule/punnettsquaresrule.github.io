@@ -74,24 +74,11 @@ hr.dash {
 }
 
 .btn-post {
-    padding: 12px 15px;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 11px;
-    font-size: 1em;
-    line-height: 1em;
-    color: $text-color;
     margin-bottom: 70px;
 
     i {
         margin-left: 5px;
     }
-}
-
-.btn-post:hover {
-    color: darken($text-color, 15%);
-    border-color: darken($text-color, 15%);
-    box-shadow: none;
 }
 
 /** 

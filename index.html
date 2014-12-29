@@ -11,9 +11,9 @@ layout: default
         <div class="col-md-2"></div>
         <div class="col-md-8">
               <div class="post-description">{{ post.description | markdownify }}</div>
-              <a class="btn btn-post" href="{{ post.url }}" role="button">{{ post.button_title }} <i class="fa fa-angle-right fa-lg"></i></a>
+              <a class="btn btn-default btn-post" href="{{ post.url }}" role="button">{{ post.button_title }} <i class="fa fa-angle-right fa-lg"></i></a>
               <div class="post-cover-image">
-                <img src="{{ post.cover_image | prepend: "assets/images/posts/" | prepend: site.baseurl }}" />
+                <img src="{{ post.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl }}" />
               </div>
         </div>
         <div class="col-md-2"></div>
