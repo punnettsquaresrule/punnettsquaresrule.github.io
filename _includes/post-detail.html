@@ -3,19 +3,17 @@
   <div class="container">
     <div class="post-header row">
       <div class="post-introduction col-md-7">
-        <h3>Podcats: A passion project</h3>
-        <p>
-        Podcats is a passion project to help find better podcasts. Made together with Niels de Hoog, we sought to build a community forum where people could reccomend podcasts to eachother. Having found that we found out about most podcasts via friends, we simply sought to create a digital hub for the practice. 
-        </p>
+        <h3>{{ page.summary.title }}</h3>
+        <p>{{ page.summary.content }}</p>
       </div>
       <div class="col-md-1"></div>
       <div class="post-meta col-md-4">
         <h3>What did I do?</h3>
-        <p>UI, UX, Concept</p>
+        <p>{{ page.meta.tasks }}</p>
         <h3>What is it?</h3>
-        <p>iOS app</p>
+        <p>{{ page.meta.type }}</p>
         <h3>How long did it take?</h3>
-        <p>~ 1 year on nights and weekends</p>
+        <p>{{ page.meta.duration }}</p>
       </div>
     </div>
 

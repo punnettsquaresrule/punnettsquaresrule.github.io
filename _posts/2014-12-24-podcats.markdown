@@ -1,13 +1,25 @@
 ---
 layout: post
-title: Podcats
-subtitle: Discover podcasts you love
-color: "#E35050"
-description: "I made an app called [Podcats](http://podcatsapp.com). It helps people find new podcasts to obsess about." # Supports Markdown format
-button_title: View case study 
 cover_image: "podcats_cover.png"
 permalink: /podcats
 date:   2014-12-24 00:00:00
+
+# Front page
+description: "I made an app called [Podcats](http://podcatsapp.com). It helps people find new podcasts to obsess about." # Supports Markdown format
+button_title: View case study 
+
+# Detail page
+title: Podcats
+subtitle: Discover podcasts you love
+summary: 
+  title: "Podcats: A passion project"
+  content: "Podcats is a passion project to help find better podcasts. Made together with Niels de Hoog, we sought to build a community forum where people could reccomend podcasts to eachother. Having found that we found out about most podcasts via friends, we simply sought to create a digital hub for the practice."
+
+# Meta info
+meta:
+  tasks: "UI, UX, Concept"
+  type: iOS app
+  duration: "~ 1 year on nights and weekends"
 
 # Style information
 color: "#E35050"

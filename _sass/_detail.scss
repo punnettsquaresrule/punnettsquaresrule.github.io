@@ -65,7 +65,7 @@
     }
 
     .post-header {
-      margin-bottom: 90px;
+      margin-bottom: 50px;
 
       h3 {
         text-align: left;
@@ -79,6 +79,16 @@
 
       p {
         margin-bottom: 20px;
+      }
+    }
+
+    .post-content {
+      h3{
+        margin-top: 70px;
+      }
+
+      img {
+        width: 100%;
       }
     }
  }
