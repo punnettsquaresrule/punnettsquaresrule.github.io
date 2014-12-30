@@ -1,0 +1,23 @@
+{% if page.next %}
+{% assign next_post = page.next %}
+{% else  %}
+{% assign next_post = site.posts.last %}
+{% endif %}
+
+{% if page.previous %}
+{% assign previous_post = page.previous %}
+{% else  %}
+{% assign previous_post = site.posts.first %}
+{% endif %}
+
+<footer class="footer-detail">
+
+  <div class="footer-section footer-previous {{ previous_post.title | slugify | prepend: "post-style-" }}">
+    Previous: {{ previous_post.title }}
+  </div>
+
+  <div class="footer-section footer-next {{ next_post.title | slugify | prepend: "post-style-" }}">
+    Next: {{ next_post.title }}
+  </div>
+
+</footer>

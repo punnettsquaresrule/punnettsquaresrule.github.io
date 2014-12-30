@@ -41,6 +41,10 @@
     }
  }
 
+ /** 
+ * Content
+ */
+
  .content-section {
   @include border-top-serrated($serrated-border-height, #FFF);
 
@@ -95,4 +99,21 @@
         width: 100%;
       }
     }
+ }
+
+ /** 
+ * Footer
+ */
+
+ .footer-detail {
+  display: table;
+  width: 100%;
+
+  .footer-section {
+    display: table-cell;
+    padding: 100px 0;
+  }
+
+  .footer-previous {
+  }
  }
