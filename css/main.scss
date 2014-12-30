@@ -7,7 +7,7 @@
 /** 
  * Global style
  */
-$base-font-family: "Montserrat", sans-serif; /* TODO: add google font */
+$base-font-family: "Montserrat", sans-serif;
 $base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -57,5 +57,19 @@ $serrated-border-height: 47px;
     @include border-top-serrated($serrated-border-height, {{ post.color }});
   {% endif %}
 }
+
+
+{% if post.color %}
+.btn-post-{{ post.title | slugify }} {
+  font-size: 20px;
+  color: {{ post.color }};
+  border-color: {{ post.color }};
+}
+
+.btn-post-{{ post.title | slugify }}:hover {
+  color: darken({{ post.color }}, 15%);
+  border-color: darken({{ post.color }}, 15%);
+}
+{% endif %}
 
 {% endfor %}
