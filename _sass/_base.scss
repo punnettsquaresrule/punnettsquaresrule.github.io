@@ -17,7 +17,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: normal;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -94,10 +94,13 @@ a {
 
     &:hover {
         color: $link-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
+a:not(.btn) {
+  @include animate-underline($link-color, 0.3s);
+}
 
 
 /**

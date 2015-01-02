@@ -73,6 +73,13 @@ hr.dash {
     margin-bottom: 40px;
 }
 
+.post-cover-image {
+    text-align: center;
+    img {
+        width: 400px;
+    }
+}
+
 .btn-post {
     margin-bottom: 70px;
 }
@@ -87,11 +94,16 @@ hr.dash {
     background-color: #9E3030;
 
     @include border-top-serrated($serrated-border-height, #9E3030);
+
+    p {
+        margin-bottom: 5px;
+    }
  }
 
  .blog-section-link {
     a {
-        font-size: 30px;
+      font-size: 30px;
+      @include animate-underline($link-color, 0.3s);
     }
  }
 
@@ -102,7 +114,7 @@ hr.dash {
 
     h1 {
         font-family: "Lobster", cursive;
-        font-size: 40px;
+        font-size: 2em;
     }
 
     .container {
@@ -151,8 +163,8 @@ hr.dash {
     display: inline-block;
     background-color: $link-color;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all .2s ease-in-out;
