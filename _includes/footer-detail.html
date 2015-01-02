@@ -10,14 +10,40 @@
 {% assign previous_post = site.posts.first %}
 {% endif %}
 
-<footer class="footer-detail">
 
-  <div class="footer-section footer-previous {{ previous_post.title | slugify | prepend: "post-style-" }}">
-    Previous: {{ previous_post.title }}
+
+<div class="post-section {{ previous_post.title | slugify | prepend: "post-style-" }}">
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+              <div class="post-description">{{ previous_post.description | markdownify }}</div>
+              <a class="btn btn-default btn-post btn-accessory" href="{{ previous_post.url }}" role="button">{{ previous_post.button_title }} <i class="fa fa-angle-right fa-lg"></i></a>
+              <div class="post-cover-image">
+                <img src="{{ previous_post.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl }}" />
+              </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
   </div>
 
-  <div class="footer-section footer-next {{ next_post.title | slugify | prepend: "post-style-" }}">
-    Next: {{ next_post.title }}
+</div>
+
+<div class="post-section {{ next_post.title | slugify | prepend: "post-style-" }}">
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+              <div class="post-description">{{ next_post.description | markdownify }}</div>
+              <a class="btn btn-default btn-post btn-accessory" href="{{ next_post.url }}" role="button">{{ previous_post.button_title }} <i class="fa fa-angle-right fa-lg"></i></a>
+              <div class="post-cover-image">
+                <img src="{{ next_post.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl }}" />
+              </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
   </div>
 
-</footer>
+</div>
