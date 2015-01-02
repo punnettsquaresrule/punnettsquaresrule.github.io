@@ -8,6 +8,10 @@ cover_image: "birds.png"
 permalink: /illustrations
 date: 2014-12-23 00:00:00
 
+website:
+  title: Blog
+  url: "http://katiemacoy.com"
+
 # Style information
 color: "#60BA62"
 background_image: "illustrations_background.png"

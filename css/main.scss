@@ -67,8 +67,8 @@ $serrated-border-height: 47px;
 }
 
 .btn-post-{{ post.title | slugify }}:hover {
-  color: darken({{ post.color }}, 15%);
-  border-color: darken({{ post.color }}, 15%);
+  color: darken({{ post.color }}, 20%);
+  border-color: darken({{ post.color }}, 20%);
 }
 {% endif %}
 
