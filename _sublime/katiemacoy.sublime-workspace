@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lig",
+				"lighten"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
 				"trc",
 				"track_id"
 			],
@@ -18,10 +110,6 @@
 			[
 				"pod",
 				"Podcast"
-			],
-			[
-				"tr",
-				"transferred"
 			],
 			[
 				"ep",
@@ -54,10 +142,6 @@
 			[
 				"inval",
 				"invalid_snippet"
-			],
-			[
-				"in",
-				"invalid"
 			],
 			[
 				"auth",
@@ -216,10 +300,6 @@
 				"confirmation_invalid"
 			],
 			[
-				"ma",
-				"margin-top"
-			],
-			[
 				"p",
 				"policy"
 			],
@@ -348,10 +428,58 @@
 	"buffers":
 	[
 		{
+			"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 3044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 2054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/njdehoog/Projects/katiemacoy.com/css/main.scss",
+			"settings":
+			{
+				"buffer_size": 1430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 3185,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/njdehoog/Projects/katiemacoy.com/index.html",
 			"settings":
 			{
-				"buffer_size": 506,
+				"buffer_size": 779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/njdehoog/Projects/katiemacoy.com/_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 1957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_detail.scss",
+			"settings":
+			{
+				"buffer_size": 1612,
 				"line_ending": "Unix"
 			}
 		}
@@ -362,8 +490,24 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			]
 		],
-		"width": 530.0
+		"width": 552.0
 	},
 	"console":
 	{
@@ -383,10 +527,51 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/njdehoog/Projects/katiemacoy.com"
+		"/Users/njdehoog/Projects/katiemacoy.com",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes",
+		"/Users/njdehoog/Projects/katiemacoy.com/_layouts",
+		"/Users/njdehoog/Projects/katiemacoy.com/_posts",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sass",
+		"/Users/njdehoog/Projects/katiemacoy.com/assets",
+		"/Users/njdehoog/Projects/katiemacoy.com/assets/images",
+		"/Users/njdehoog/Projects/katiemacoy.com/assets/images/posts",
+		"/Users/njdehoog/Projects/katiemacoy.com/css"
 	],
 	"file_history":
 	[
+		"/Users/njdehoog/Projects/PodcatsAPI/sublime/Podcats.sublime-project",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sass/_base.scss",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sass/_detail.scss",
+		"/Users/njdehoog/Projects/katiemacoy.com/index.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_posts/2014-12-23-illustrations.markdown",
+		"/Users/njdehoog/Projects/katiemacoy.com/_posts/2014-12-22-voyagequest.markdown",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes/footer-detail.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_posts/2014-12-24-podcats.markdown",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes/post-detail.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/css/main.scss",
+		"/Users/njdehoog/Projects/katiemacoy.com/_config.yml",
+		"/Users/njdehoog/Projects/katiemacoy.com/.sass-cache/03d316ac626251711fb4e56c2654b0a7e0a9fd43/_str-to-num.scssc",
+		"/Users/njdehoog/Projects/katiemacoy.com/.sass-cache/cba2ffbed4d4be2f6ef9a44767d243399ec813b6/_bourbon-deprecated-upcoming.scssc",
+		"/Users/njdehoog/Projects/katiemacoy.com/_layouts/default.html",
+		"/Users/njdehoog/Projects/Falcon/Falcon.podspec",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes/head.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes/header-detail.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_layouts/detail.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sublime/katiemacoy.sublime-project",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes/footer.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/.sass-cache/023c25a14b947c5151b1e1dc6bec3eefc52ac343/_size.scssc",
+		"/Users/njdehoog/Projects/katiemacoy.com/.sass-cache/023c25a14b947c5151b1e1dc6bec3eefc52ac343/_html5-input-types.scssc",
+		"/Users/njdehoog/Projects/katiemacoy.com/_site/Gemfile",
+		"/Users/njdehoog/Projects/Podcats/Podfile",
+		"/Users/njdehoog/Dropbox/Invisible Pixel/Documents/Invisible Pixel/Podcats/JSON responses/screenshot.json",
+		"/Users/njdehoog/Projects/katiemacoy.com/.sass-cache/03d316ac626251711fb4e56c2654b0a7e0a9fd43/_linear-angle-parser.scssc",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sass/_layout.scss",
+		"/Users/njdehoog/Projects/katiemacoy.com/_layouts/post.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_includes/header.html",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sass/_post-styles.scss",
+		"/Users/njdehoog/Projects/katiemacoy.com/.sass-cache/03d316ac626251711fb4e56c2654b0a7e0a9fd43/_is-num.scssc",
+		"/Users/njdehoog/Projects/katiemacoy.com/_sass/_mixins.scss",
+		"/Users/njdehoog/Projects/katiemacoy.com/_layouts/page.html",
 		"/Users/njdehoog/Projects/PodcatsAPI/lib/api_client/fake_store.rb",
 		"/Users/njdehoog/Projects/PodcatsAPI/lib/api_client/memory_store.rb",
 		"/Users/njdehoog/Projects/PodcatsAPI/lib/api_client.rb",
@@ -402,7 +587,6 @@
 		"/Users/njdehoog/Projects/PodcatsAPI/app/serializers/podcast_serializer.rb",
 		"/Users/njdehoog/Projects/PodcatsAPI/app/models/podcast.rb",
 		"/Users/njdehoog/Projects/PodcatsAPI/app/controllers/v1/snippets_controller.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/sublime/Podcats.sublime-project",
 		"/Users/njdehoog/Projects/PodcatsAPI/spec/controllers/snippets_controller_spec.rb",
 		"/Users/njdehoog/Projects/PodcatsAPI/db/migrate/20131122142927_create_snippets.rb",
 		"/Users/njdehoog/Projects/PodcatsAPI/app/models/snippet.rb",
@@ -482,43 +666,11 @@
 		"/Users/njdehoog/Projects/PodcatsAPI/log/RAILS_ENV=test.log",
 		"/Users/njdehoog/Projects/PodcatsAPI/config.ru",
 		"/Users/njdehoog/Projects/PodcatsAPI/app/helpers/rss_item_extensions.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/public/404.html",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/controllers/episodes_controller.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/config/environment.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/config/initializers/api_cache.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/Procfile",
-		"/Users/njdehoog/Projects/PodcatsAPI/tmp/pids/server.pid",
-		"/Users/njdehoog/Projects/PodcatsAPI/db/seeds.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/helpers/itunes_api_client.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/controllers/podcasts_controller.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/config/cucumber.yml",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/controllers/password_resets_controller.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/spec/fixtures/votes.yml",
-		"/Users/njdehoog/Projects/PodcatsAPI/config/newrelic.yml",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/views/password_resets/new.html.erb",
-		"/Users/njdehoog/Projects/PodcatsAPI/db/migrate/20131129154204_add_user_ref_to_snippets.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/views/users/confirm.html.erb",
-		"/Users/njdehoog/Projects/PodcatsAPI/log/development.log",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/views/users/confirmations/new.html.erb",
-		"/Users/njdehoog/Projects/PodcatsAPI/app/controllers/v1/registrations_controller.rb",
-		"/Users/njdehoog/Projects/PodcatsAPI/db/migrate/20131127095813_devise_create_users.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/Gemfile",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/controllers/v1/registrations_controller.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/controllers/v1/tokens_controller.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/controllers/v1/snippets_controller.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/db/migrate/20131129151843_create_votes.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/db/migrate/20131129154204_add_user_ref_to_snippets.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/models/vote.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/models/snippet.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/models/user.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/app/controllers/v1/votes_controller.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/config/newrelic.yml",
-		"/Users/njdehoog/Projects/NineEarsAPI/config/unicorn.rb",
-		"/Users/njdehoog/Projects/NineEarsAPI/config/application.rb"
+		"/Users/njdehoog/Projects/PodcatsAPI/public/404.html"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -533,6 +685,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"180",
 			"fixtures",
 			"databasecleaner",
 			"Episode",
@@ -561,29 +714,209 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/njdehoog/Projects/katiemacoy.com/index.html",
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_layout.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 506,
+						"buffer_size": 3044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1584,
+								1584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1602,
+								1602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 481.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/css/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1156,
+								1205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								532
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1770,
+								1770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/njdehoog/Projects/katiemacoy.com/_sass/_detail.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -647,6 +980,66 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"layout",
+				"_sass/_layout.scss"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"bas",
+				"_sass/_base.scss"
+			],
+			[
+				"main",
+				"css/main.scss"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"ba",
+				"_sass/_base.scss"
+			],
+			[
+				"man",
+				"css/main.scss"
+			],
+			[
+				"he",
+				"_includes/head.html"
+			],
+			[
+				"hea",
+				"_includes/head.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"cong",
+				"_config.yml"
+			],
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"foo",
+				"_includes/footer.html"
+			],
+			[
+				"",
+				"_includes/header.html"
+			],
+			[
+				"ma",
+				"css/main.scss"
+			],
 			[
 				"episodes",
 				"app/controllers/v1/episodes_controller.rb"
@@ -852,10 +1245,6 @@
 				"_config.yml"
 			],
 			[
-				"head",
-				"_includes/head.html"
-			],
-			[
 				"api",
 				"lib/api_client.rb"
 			],
@@ -950,10 +1339,6 @@
 			[
 				"i",
 				"lib/itunes_api_client.rb"
-			],
-			[
-				"",
-				"app/controllers/v1/podcasts_controller.rb"
 			],
 			[
 				"it",
@@ -1106,38 +1491,6 @@
 			[
 				"votees",
 				"app/controllers/votes_controller.rb"
-			],
-			[
-				"snippets",
-				"app/controllers/v1/snippets_controller.rb"
-			],
-			[
-				"devise.r",
-				"config/initializers/devise.rb"
-			],
-			[
-				"user_spe",
-				"spec/models/user_spec.rb"
-			],
-			[
-				"snippet_cont",
-				"app/controllers/v1/snippets_controller.rb"
-			],
-			[
-				"ap",
-				"config/application.rb"
-			],
-			[
-				"daa",
-				"config/database.yml"
-			],
-			[
-				"snip",
-				"app/models/snippet.rb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			]
 		],
 		"width": 0.0
