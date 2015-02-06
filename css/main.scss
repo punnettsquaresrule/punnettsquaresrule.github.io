@@ -7,8 +7,8 @@
 /** 
  * Global style
  */
-$base-font-family: "Montserrat", sans-serif; /* TODO: add google font */
-$base-font-size:   20px;
+$base-font-family: "Montserrat", sans-serif;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -21,9 +21,6 @@ $link-color:       #FFB848;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
 
 $serrated-border-height: 47px;
 
@@ -57,5 +54,19 @@ $serrated-border-height: 47px;
     @include border-top-serrated($serrated-border-height, {{ post.color }});
   {% endif %}
 }
+
+
+{% if post.color %}
+.btn-post-{{ post.title | slugify }} {
+  font-size: 20px;
+  color: {{ post.color }};
+  border-color: {{ post.color }};
+}
+
+.btn-post-{{ post.title | slugify }}:hover {
+  color: darken({{ post.color }}, 20%);
+  border-color: darken({{ post.color }}, 20%);
+}
+{% endif %}
 
 {% endfor %}

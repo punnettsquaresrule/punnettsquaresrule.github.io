@@ -1,14 +1,47 @@
 ---
 layout: post
-title: Podcats
-subtitle: Discover podcasts you love
-color: "#E35050"
-description: "I made an app called [Podcats](http://podcatsapp.com). It helps people find new podcasts to obsess about." # Supports Markdown format
-button_title: View case study 
 cover_image: "podcats_cover.png"
 permalink: /podcats
 date:   2014-12-24 00:00:00
 
+# Front page
+description: "I made an app called [Podcats](http://podcatsapp.com). It helps people find new podcasts to obsess about." # Supports Markdown format
+button_title: View case study 
+
+# Detail page
+title: Podcats
+subtitle: Discover podcasts you love
+summary: 
+  title: "Podcats: A passion project"
+  content: "Podcats is a passion project to help find better podcasts. Made together with Niels de Hoog, we sought to build a community forum where people could reccomend podcasts to eachother. Having found that we found out about most podcasts via friends, we simply sought to create a digital hub for the practice."
+website:
+  title: Podcats site
+  url: "http://podcatsapp.com"
+
+# Meta info
+meta:
+  tasks: "UI, UX, Concept"
+  type: iOS app
+  duration: "~ 1 year on nights and weekends"
+
 # Style information
 color: "#E35050"
 ---
+
+### The problem
+
+Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+
+![iTunes Top Podcasts](/assets/images/posts/podcats_problem.png "iTunes Top Podcasts")
+
+### Concept
+
+Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+
+![Podcats sketch](/assets/images/posts/podcats_concept.png "Podcats sketch")
+
+### Wireframing
+
+Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+
+![Podcats wireframes](/assets/images/posts/podcats_wireframes.png "Podcats wireframes")

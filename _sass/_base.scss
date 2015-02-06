@@ -17,7 +17,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: normal;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -94,10 +94,13 @@ a {
 
     &:hover {
         color: $link-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
+a:not(.btn) {
+  @include animate-underline($link-color, 0.3s);
+}
 
 
 /**
@@ -145,29 +148,6 @@ pre {
 }
 
 
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
 /**
  * Clearfix
  */
@@ -196,5 +176,40 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+/** 
+ * Buttons
+ */
+
+ .btn-default {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 11px;
+    font-size: 1em;
+    line-height: 1em;
+    color: $text-color;
+    transition: all .2s linear;
+}
+
+.btn-default:hover {
+    color: $text-color;
+    border-color: $text-color;
+    box-shadow: none;
+    transition: all .2s linear;
+    background-color: rgba($text-color, .15);
+}
+
+.btn-accessory {
+    i {
+        margin-left: 5px;
+    }
+}
+
+.btn-accessory-left {
+    i {
+        margin-right: 5px;
     }
 }

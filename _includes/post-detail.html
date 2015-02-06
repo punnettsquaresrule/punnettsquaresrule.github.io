@@ -1,0 +1,32 @@
+<div class="content-section">
+
+  <div class="container">
+    <div class="post-header row">
+      <div class="post-introduction col-md-7">
+        <h3>{{ page.summary.title }}</h3>
+        <p>{{ page.summary.content }}</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="post-meta col-md-4">
+        <h3>What did I do?</h3>
+        <p>{{ page.meta.tasks }}</p>
+        <h3>What is it?</h3>
+        <p>{{ page.meta.type }}</p>
+        <h3>How long did it take?</h3>
+        <p>{{ page.meta.duration }}</p>
+        {% if page.website %}
+          <a href="{{ page.website.url }}" class="btn btn-default btn-accessory btn-post-{{ page.title | slugify }}">{{ page.website.title }} <i class="fa fa-angle-right fa-lg"></i></a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="row post-content">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+      {{ page.content | markdownify }}
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+</div>

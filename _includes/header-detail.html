@@ -2,13 +2,17 @@
 
   <div class="container">
 
-    <div class="logo">Katie Macoy</div>
+    <div class="nav">
+      <div class="logo"><a href="{{ site.url }}">Katie Macoy</a></div>
+      <div class="contact-button"><a href="{{ site.url }}#contact" class="btn btn-default">Contact</a></div>
+    </div>
 
-    <div class="contact-button"><a class="btn btn-post">Contact</a></div>
-
-    <div class="header-content clearfix">
+    <div class="header-content">
       <h1 class="post-title">{{ page.title }}</h1>
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
+      <div class="post-cover-image">
+        <img src="{{ page.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl }}" />
+      </div>
     </div>
 
   </div>
