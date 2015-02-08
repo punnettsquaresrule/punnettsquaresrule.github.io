@@ -13,7 +13,7 @@ title: Podcats
 subtitle: Discover podcasts you love
 summary: 
   title: "Podcats: A passion project"
-  content: "Podcats is a passion project to help people find new podcasts to listen to. Made in collaboration with [Niels de Hoog](https://github.com/njdehoog), we sought to build a community forum where people could reccomend podcasts to eachother. Having found that we found out about most podcasts via friends, we simply created a digital hub for the practice."
+  content: "Podcats is a passion project to help people find new podcasts to listen to. Made in collaboration with [Niels de Hoog](https://github.com/njdehoog), we sought to build a community forum where people could recommend podcasts to each other. Having found that we found out about most podcasts via friends, we simply created a digital hub for the practice."
 website:
   title: Podcats site
   url: "http://podcatsapp.com"
@@ -30,42 +30,43 @@ color: "#E35050"
 
 
 
+
 ### TL:DR Making your own app is lotsa work
 
 
 ### The problem
 
-For those who aren't aware, podcasts are basically a radio show, tailored to your interests, delieved straight to your phone every week (or month, or day..). If you can think of a subject, there is probably a podcast about it. Anyone can make a podcast, and podcasts often develop loyal (rabid) followings, as listeners develop a "best friend you've never actually spoken to" personal relationship with the creators.
+For those who aren't aware, podcasts are basically a radio show, tailored to your interests, delivered straight to your phone every week (or month, or day..). If you can think of a subject, there is probably a podcast about it. Anyone can make a podcast, and podcasts often develop loyal (rabid) followings, as listeners develop a "best friend you've never actually spoken to" personal relationship with the creators.
 
-iTunes, the main podcast place where podcasts live, does provide a top list of interesting podcasts, but this list generally remains unchanged for months/years at a time with the big podcast players. Popular podcasts remain popular, new guys don’t even stand a chance. Podcast listeners generally have a list of their favorites, but it's difficult to discover new podcasts outside of your bubble. 
+iTunes, the main podcast place where podcasts live, does provide a top list of interesting podcasts, but this list generally remains unchanged for months/years at a time with the big podcast players. Popular podcasts remain popular, new guys don’t even stand a chance. Podcast listeners generally have a list of their favourites, but it's difficult to discover new podcasts outside of your bubble. 
 
-Furthermore, the discoverability of new podcasts through iTunes is wedged somewhere between 'absymal' and 'completely useless'. Think of all of the amazing stuff you aren't hearing!
+Furthermore, the discoverability of new podcasts through iTunes is wedged somewhere between 'abysmal' and 'completely useless'. Think of all of the amazing stuff you aren't hearing!
 
-![iTunes Top Podcasts](/assets/images/posts/podcats_problem.png "iTunes Top Podcasts")
+![iTunes Top Podcasts](/assets/images/posts/podcats/podcats_problem.png "iTunes Top Podcasts")
 
 ### Concept
 
-When I was but a baby podcast listener, I found my podcasts via iTunes like the rest of the noobs. After professing my newfound love for podcasts to friends, I soon had a long list of requests pouring in that were even better than what I found on iTunes. I realized that there was an inexhaustable list of podcasts floating out there in the abyss. Unfortunatley for me, I do have an exhaustable amount of friends. 
+When I was but a baby podcast listener, I found my podcasts via iTunes like the rest of the noobs. After professing my newfound love for podcasts to friends, I soon had a long list of requests pouring in that were even better than what I found on iTunes. I realised that there was an inexhaustible list of podcasts floating out there in the abyss. Unfortunately for me, I do have an exhaustible amount of friends. 
 
 Thus, Podcats was born. Podcats is in essence, a way for anyone to say "hey, I like this podcast, you might too".
 
-![Podcats sketch](/assets/images/posts/podcats_concept.png "Podcats sketch")
+![Podcats sketch](/assets/images/posts/podcats/podcats_concept.png "Podcats sketch")
 
 ### Execution
 
 We decided early on to make an app (as opposed to a website, a platform...) because in our experience podcasts are generally listened to via a smartphone. Anecdotally, we know people listen to podcasts on their commute to work, to make cleaning less boring, etc. We had not heard of anyone sitting behind their computer and listening to a podcast. Even Apple's own podcast app is only available for the iPhone and iPad. 
 
-We chose to make an iPhone only app for the simple reason that our programming expertise doesn't extend to Andriod development. We're also both iOS users, and we were making the app for our own use as well. Sorry Android users, perhaps someday you'll have Podcats too...
+We chose to make an iPhone only app for the simple reason that our programming expertise doesn't extend to Android development. We're also both iOS users, and we were making the app for our own use as well. Sorry Android users, perhaps someday you'll have Podcats too...
 
-![Apple's podcast app](/assets/images/posts/itunes.jpg "Apple's podcast app")
+![Apple's podcast app](/assets/images/posts/podcats/itunes.jpg "Apple's podcast app")
 
 
 ### Keep it simple, dumbass
 
-After the bud of an idea was there, it was up to Niels and I to decide what was feasible. Seasoned app developers as we were, we still had full time jobs and social lives to contend with. We tried to decifer what was the minimum viable product could be to build an app with enough to captivate users but not so much that we'd have to work on it for a hundred years before it came out. The core of the idea was the ability to reccomend podcasts to eachother, and everything else was secondary. So at it's core, the app had to:
+After the bud of an idea was there, it was up to Niels and I to decide what was feasible. Seasoned app developers as we were, we still had full time jobs and social lives to contend with. We tried to decipher what was the minimum viable product could be to build an app with enough to captivate users but not so much that we'd have to work on it for a hundred years before it came out. The core of the idea was the ability to recommend podcasts to each other, and everything else was secondary. So at it's core, the app had to:
 
-- Display reccomendations from other people
-- Accept reccomndations to display
+- Display recommendations from other people
+- Accept recommendations to display
 
 A tried and tested application of this mechanic is Reddit/Hacker News/Product Hunt: a user can submit something, and all other users get one vote on whether or not it's good. What that results in is a list of content that the community finds interesting. Perfect for our concept! I'm a strong proponent of not reinventing the wheel when it comes to technology, so we happily stole this mechanic for Podcats. The Reddit mechanic did add one more must have feature:
 
@@ -75,7 +76,7 @@ Why a login? Users can only have vote, so we need to be able to track if you've 
 
 After we had established clearly what the app must do, it was time for me to get those ideas on paper.
 
-![MVP list](/assets/images/posts/mvp.jpg "MVP")
+![MVP list](/assets/images/posts/podcats/mvp.jpg "MVP")
 
 
 ### Interaction Design 
@@ -84,32 +85,46 @@ I generally start my interaction design process on paper so that I can quickly g
 
 I try to sketch out the most obvious ideas first, just to get it out of the way. That's not to imply that obvious ideas are wrong, but often obvious means I've seen it somewhere else, it was designed to solve another problem and will need some iteration before it could suffice. 
 
-![First Sketches](/assets/images/posts/IxD.JPG "First Sketches")
+![First Sketches](/assets/images/posts/podcats/IxD.JPG "First Sketches")
 
 
 After the obvious ideas, I try to think something completely different (i.e. what if this interface was gesture only, no buttons allowed? or: what if this app had no typography in it?) These small exercises force me to think of unconventional ways of laying out the interface and prevent the designs from being stale. I almost never use them in full as an interaction, but the often lead to little elements the make it into the final designs.
 
 I also try to think of the worst possible solutions, as an though exercise. When making something intentionally bad, you need to be aware why it wouldn't work. So in inverse way, you are considering the users needs. It's quite obvious, but it often leads to new insights or at least serve to support the other interaction designs.
 
-When everything is physical, it's simple to move things around, (literally) rip pieces of one idea and paste them on another, or quickly make notes here or there. From there it's edit, edit, edit. I try to distill all of the sketches into something that could be functional app on paper. After a few iterations of solving the most obvious issues, I make a digital first draft interaction design to more easily communciate it with other people. 
+When everything is physical, it's simple to move things around, (literally) rip pieces of one idea and paste them on another, or quickly make notes here or there. From there it's edit, edit, edit. I try to distill all of the sketches into something that could be functional app on paper. After a few iterations of solving the most obvious issues, I make a digital first draft interaction design to more easily communicate it with other people. 
 
-![Podcats wireframes](/assets/images/posts/podcats_wireframes.png "Podcats wireframes")
-![Final wireframes](/assets/images/posts/IxDv2.png "Final wireframes")
+![Podcats wireframes](/assets/images/posts/podcats/podcats_wireframes.png "Podcats wireframes")
+![Final wireframes](/assets/images/posts/podcats/IxDv2.png "Final wireframes")
 
 
 ### Prototyping
 
-I strongly, strongly, shout-it-from-the-mountain-tops strongly believe in the importance of prototyping. Normally my old favorite is Pop, for it's simplicity and how quickly I can test the basics on the device. More recently, I discovered prototyping in Keynote, which nearly as fast as Pop, but with the benefit of being able to prototype pretty complex animations with ease. For more high fidelity prototyping, I usually jump straight native iOS development. With such a small team, we didn't focus that much on a step by step process or keeping things really formal when building Podcats. I made a first draft of an interaction design, showed it to Niels, we made some verbal agreements and he started building away. Pretty quickly, we saw the pain points in the interaction design and could just shout out some ideas. Niels would implement them, and then we'd see if it felt right. 
+I strongly, strongly, shout-it-from-the-mountain-tops strongly believe in the importance of prototyping. Normally my old favourite is Pop, for it's simplicity and how quickly I can test the basics on the device. More recently, I discovered prototyping in Keynote, which nearly as fast as Pop, but with the benefit of being able to prototype pretty complex animations with ease. For more high fidelity prototyping, I usually jump straight native iOS development. With such a small team, we didn't focus that much on a step by step process or keeping things really formal when building Podcats. I made a first draft of an interaction design, showed it to Niels, we made some verbal agreements and he started building away. Pretty quickly, we saw the pain points in the interaction design and could just shout out some ideas. Niels would implement them, and then we'd see if it felt right. 
 
 Because of our informal process, the design and development process blurred together significantly. Sometimes it felt like this:
-![Laying track](/assets/images/posts/track.gif "Laying track")
+![Laying track](/assets/images/posts/podcats/track.gif "Laying track")
 
 But it also felt good, there's no sense in spending a week perfecting a design only to find out that it works terribly.
 
-
 ### Visual design iterations
 
-The first iterations of Podcats were SO BAD and I would love to put them on the internet for you to laugh at. Unfortunatley, being new at Sketch, I had the habit (then) of just working in one artboard and saving over it a hundred times thus I lost the earliest versions like an idiot. Only later in the process did I discover the magic of multiple artboards and so can only show you the last few iterations.
+The first iterations of Podcats were SO BAD and I would love to put them on the internet for you to laugh at. Unfortunately, being new at Sketch, I had the habit (then) of just working in one art board and saving over it a hundred times thus I lost the earliest versions like an idiot. Only later in the process did I discover the magic of multiple art boards and so can only show you the last few iterations.
+
+This first design isn't -terrible- but it's not great either. It lacks contrast and doesn't have enough cohesion within the iconography. I don't know where to look!!
+![Iteration 1](/assets/images/posts/podcats/Pod1.png "Iteration 1")
+
+The visual hierarchy becomes clearer by changing "popular/new" toggle into an element that has a strong contrast to the content. The rounded edges make it read more as a button and plays well off of the rounded iconography in the header. The arrows on the right are mean to represent stages of swiping right: to create a more calm screen, I thought to move the up voting out of the content. This idea was scrapped because up voting content was too central of feature to hide in a gesture.
+![Iteration 2](/assets/images/posts/podcats/Pod2.png "Iteration 2")
+
+When in doubt, add an unnecessary picture of Ira Glass into your design. It's scientifically proven to improve designs by 1000%
+![Iteration 3](/assets/images/posts/podcats/Pod3.png "Iteration 3")
+
+Here's the final design: I removed the card metaphor for the content to be able to place more content on the screen. Furthermore, the voting is highlighted by a giant pink button to draw the eye and encourage users to vote. Secondary content, such as the name of the podcast falls into the background with less contrast. 
+![Iteration 4](/assets/images/posts/podcats/Pod4.png "Iteration 4")
+
+And finally: the making of the icon
+![Icon](/assets/images/posts/podcats/icon.png "Icon")
 
 ### The final design
 
@@ -119,34 +134,64 @@ We wanted Podcats to be a very minimalistic app that put a lot of focus on:
 
 Focus on reading was solved by placing heavy contrast on text and allow there to be enough whitespace to not get overwhelmed by the large amounts of texts. Contrast was lowered for less important text. 
 
-I encourage users to vote by placing a large number right next to the content with a bright accent color to draw the eye.
+I encourage users to vote by placing a large number right next to the content with a bright accent colour to draw the eye.
 
-![Tutorial](/assets/images/posts/Final0.png "Tutorial")
-![Home screen](/assets/images/posts/Final1.png "Home screen")
-![Detail screen](/assets/images/posts/Final2.png "Detail screen")
-
+![Tutorial](/assets/images/posts/podcats/Final0.png "Tutorial")
+![Home screen](/assets/images/posts/podcats/Final1.png "Home screen")
+![Detail screen](/assets/images/posts/podcats/Final2.png "Detail screen")
 
 ### Testing 123
 
-Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
-![Testers](/assets/images/posts/testing.png "Testers")
-![Survey](/assets/images/posts/survey.png "Survey")
+The app was a reality! We got the major kinks out, and it was time to put it in the hands, of real living, breathing, people. After reaching out on Facebook, we got 39 people to check it out for us. We got great feedback about bugs, confusing parts of the app, and the parts people liked.
+![Testers](/assets/images/posts/podcats/testing.png "Testers")
 
+To give the feedback a bit more structure, we sent out a survey to our users. We kept it anonymous so people could be blunt with their feedback.
+![Survey](/assets/images/posts/podcats/survey.png "Survey")
+
+Niels and I collected all the feedback and categorised it into "must fix" and "will fix later". After fixing the major issues, we had two more rounds of user feedback and were ready to release it to the whole wide world.
 
 ### SHIP IT!
 
-###Hindsight in 20/20
+After many months and long nights, we were ready! After a few days it was approved by Apple and in the app store. We got a very positive response, even making it to the front page of hacker news and being featured on Product Hunt.
 
-![Hindsight](/assets/images/posts/usage.png "Hindsight")
-
-### That name though
-
-Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
-
-![Icon](/assets/images/posts/icon.png "Icon")
+![Ship it!](/assets/images/posts/podcats/Shipit.png "Ship it!")
 
 
 ### Tooling
 
-Podcasts are a great medium with an astonishing variety of content out there, however finding good content is difficult. iTunes, the podcast hub, does provide a top list, but this list generally remains unchanged for months/years at a time. Popular podcasts remain popular, new guys don’t even stand a chance. 
+Podcats interaction design was made with [Balsamiq](https://balsamiq.com/) and later [Sketch](http://bohemiancoding.com/sketch/). The visual design was done in [Sketch](http://bohemiancoding.com/sketch/). 
+
+![Sketch](/assets/images/posts/podcats/Sketch.png "Sketch")
+
+(side note - this was my first Sketch only project, and I have turned into a total Sketch cheerleader. If you're a designer, give Sketch a try. Kill Adobe with fire!)
+
+Niels and I stayed in sync with [Trello](https://trello.com/). We shared assets via [Dropbox](https://www.dropbox.com/). Prototyping and development was done in [XCode](https://developer.apple.com/xcode/) with a repo on [Bitbucket](https://bitbucket.org/). The testing and crash reporting was done in [Crashlytics](https://crashlytics.com). User analytics was done with [Countly](https://count.ly/).
+
+![Trello](/assets/images/posts/podcats/Trello.png "Trello")
+
+
+Next time someone comes to me with a "really simple app idea to build on the weekend" I'm going to show them this list. All these tools for a team of two people!!
+
+### That name, though
+One of the most common questions about Podcats is the name. We started out with the name "9ears" after putting a few keywords through [Bad Translator](http://ackuna.com/badtranslator). After telling a few friends about our idea, my cat-loving friend [Mendel](http://www.onwijsbegeerte.nl/) suggested the play on words "Podcats". It just stuck, and we started incorporating cat-related elements into the app, including our mascot, a happy blue cat. 
+
+![Kitty](/assets/images/posts/podcats/Portrait 2.png "Kitty")
+
+###Hindsight is 20/20
+
+Making this app was certainly a learning process. If I could do it all over again, I would certainly do a few things differently. 
+
+One of the most important lessons I learned was get things in people's hands early and often. I have tendency to have an idea, go hide in a cave for a hundred years perfecting it, and only then sharing it with the world. I've since learned (and am working on) just getting things out in the world more often. User feedback is incredibly important and we missed it too much in the beginning stages. 
+
+In the future, I would probably create a website as soon as I had an idea, and promote the website to gauge people's interest. If that was successful, I would start building, and with every stage, give something to the users. That way you avoid building something that no one is interested in and can remain flexible while building.
+
+The consequences of this lack of foresight in Podcats were basically our assumption about the minimum viable product was not entirely correct. We just needed a bit more. People seem generally enthusiastic about the idea and seem to use and understand how to use that app, but are not sticking around. We've talked to our users about why and are already making plans for the next release to remedy this. In future releases, we'll work in a more loose process and get the users involved more.
+
+![Hindsight](/assets/images/posts/podcats/usage.png "Hindsight")
+
+###Try it yourself
+
+If you'd like to get into podcasts, or get more into podcasts, please check out Podcats in the the [app store](https://itunes.apple.com/us/app/podcats-podcast-discovery/id932391526?mt=8). If you squint really hard, you might even be able to feel the blood, sweat, and tears that went into it.
+
+![Podcats](/assets/images/posts/podcats/PodcatsiPhone.png "Podcats")
 
