@@ -29,8 +29,6 @@ color: "#E35050"
 ---
 
 
-
-
 ### TL:DR Making your own app is lotsa work
 
 
@@ -95,8 +93,8 @@ I also try to think of the worst possible solutions, as an though exercise. When
 When everything is physical, it's simple to move things around, (literally) rip pieces of one idea and paste them on another, or quickly make notes here or there. From there it's edit, edit, edit. I try to distill all of the sketches into something that could be functional app on paper. After a few iterations of solving the most obvious issues, I make a digital first draft interaction design to more easily communicate it with other people. 
 
 ![Podcats wireframes](/assets/images/posts/podcats/podcats_wireframes.png "Podcats wireframes")
-![Final wireframes](/assets/images/posts/podcats/IxDv2.png "Final wireframes")
 
+{% include figure.html src="/assets/images/posts/podcats/IxDv2.png" caption="Image caption" %}
 
 ### Prototyping
 

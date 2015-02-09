@@ -12,6 +12,9 @@ website:
   title: Blog
   url: "http://katiemacoy.com"
 
+summary:
+  content: ""
+
 # Style information
 color: "#60BA62"
 background_image: "illustrations_background.png"
