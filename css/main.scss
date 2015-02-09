@@ -47,6 +47,7 @@ $serrated-border-height: 47px;
 
   {% if post.background_image  %}
     background-image: url("../assets/images/posts/{{ post.background_image }}");
+    background-size: cover;
   {% endif %}
 
   {% if post.color %}
