@@ -103,6 +103,7 @@ When everything is physical, it's simple to move things around, (literally) rip 
 I strongly, strongly, shout-it-from-the-mountain-tops strongly believe in the importance of prototyping. Normally my old favourite is Pop, for it's simplicity and how quickly I can test the basics on the device. More recently, I discovered prototyping in Keynote, which nearly as fast as Pop, but with the benefit of being able to prototype pretty complex animations with ease. For more high fidelity prototyping, I usually jump straight native iOS development. With such a small team, we didn't focus that much on a step by step process or keeping things really formal when building Podcats. I made a first draft of an interaction design, showed it to Niels, we made some verbal agreements and he started building away. Pretty quickly, we saw the pain points in the interaction design and could just shout out some ideas. Niels would implement them, and then we'd see if it felt right. 
 
 Because of our informal process, the design and development process blurred together significantly. Sometimes it felt like this:
+
 ![Laying track](/assets/images/posts/podcats/track.gif "Laying track")
 
 But it also felt good, there's no sense in spending a week perfecting a design only to find out that it works terribly.
@@ -112,18 +113,23 @@ But it also felt good, there's no sense in spending a week perfecting a design o
 The first iterations of Podcats were SO BAD and I would love to put them on the internet for you to laugh at. Unfortunately, being new at Sketch, I had the habit (then) of just working in one art board and saving over it a hundred times thus I lost the earliest versions like an idiot. Only later in the process did I discover the magic of multiple art boards and so can only show you the last few iterations.
 
 This first design isn't -terrible- but it's not great either. It lacks contrast and doesn't have enough cohesion within the iconography. I don't know where to look!!
+
 ![Iteration 1](/assets/images/posts/podcats/Pod1.png "Iteration 1")
 
 The visual hierarchy becomes clearer by changing "popular/new" toggle into an element that has a strong contrast to the content. The rounded edges make it read more as a button and plays well off of the rounded iconography in the header. The arrows on the right are mean to represent stages of swiping right: to create a more calm screen, I thought to move the up voting out of the content. This idea was scrapped because up voting content was too central of feature to hide in a gesture.
+
 ![Iteration 2](/assets/images/posts/podcats/Pod2.png "Iteration 2")
 
 When in doubt, add an unnecessary picture of Ira Glass into your design. It's scientifically proven to improve designs by 1000%
+
 ![Iteration 3](/assets/images/posts/podcats/Pod3.png "Iteration 3")
 
 Here's the final design: I removed the card metaphor for the content to be able to place more content on the screen. Furthermore, the voting is highlighted by a giant pink button to draw the eye and encourage users to vote. Secondary content, such as the name of the podcast falls into the background with less contrast. 
+
 ![Iteration 4](/assets/images/posts/podcats/Pod4.png "Iteration 4")
 
 And finally: the making of the icon
+
 ![Icon](/assets/images/posts/podcats/icon.png "Icon")
 
 ### The final design
@@ -143,9 +149,11 @@ I encourage users to vote by placing a large number right next to the content wi
 ### Testing 123
 
 The app was a reality! We got the major kinks out, and it was time to put it in the hands, of real living, breathing, people. After reaching out on Facebook, we got 39 people to check it out for us. We got great feedback about bugs, confusing parts of the app, and the parts people liked.
+
 ![Testers](/assets/images/posts/podcats/testing.png "Testers")
 
 To give the feedback a bit more structure, we sent out a survey to our users. We kept it anonymous so people could be blunt with their feedback.
+
 ![Survey](/assets/images/posts/podcats/survey.png "Survey")
 
 Niels and I collected all the feedback and categorised it into "must fix" and "will fix later". After fixing the major issues, we had two more rounds of user feedback and were ready to release it to the whole wide world.
