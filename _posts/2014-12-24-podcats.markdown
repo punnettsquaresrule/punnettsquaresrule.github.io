@@ -94,7 +94,7 @@ When everything is physical, it's simple to move things around, (literally) rip 
 
 ![Podcats wireframes](/assets/images/posts/podcats/podcats_wireframes.png "Podcats wireframes")
 
-{% include figure.html src="/assets/images/posts/podcats/IxDv2.png" caption="Image caption" %}
+{% include figure.html src="/assets/images/posts/podcats/IxDv2.png" caption="After a few iterations of solving the most obvious issues." %}
 
 ### Prototyping
 
@@ -102,7 +102,9 @@ I strongly, strongly, shout-it-from-the-mountain-tops strongly believe in the im
 
 Because of our informal process, the design and development process blurred together significantly. Sometimes it felt like this:
 
-![Laying track](/assets/images/posts/podcats/track.gif "Laying track")
+<!-- ![Laying track](/assets/images/posts/podcats/track.gif "Laying track") -->
+
+{% include figure.html src="/assets/images/posts/podcats/track.gif" caption="After a few iterations of solving the most obvious issues." retina="" %}
 
 But it also felt good, there's no sense in spending a week perfecting a design only to find out that it works terribly.
 
