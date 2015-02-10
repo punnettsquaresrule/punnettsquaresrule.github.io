@@ -120,17 +120,17 @@
 
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
 
   h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
 
   .post-buttons {
     @extend %clearfix;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 
     .previous-post-button {
       float: left;
