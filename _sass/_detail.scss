@@ -120,7 +120,7 @@
 
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 
   h2 {
     font-size: 25px;
@@ -129,6 +129,9 @@
   }
 
   .post-buttons {
+    @extend %clearfix;
+    margin-bottom: 40px;
+
     .previous-post-button {
       float: left;
 
@@ -145,5 +148,10 @@
         float: none;
       }
     }
+  }
+
+  .footer-content p {
+    font-size: 15px;
+    font-weight: normal;
   }
  }
