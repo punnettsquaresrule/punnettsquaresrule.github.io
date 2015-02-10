@@ -28,10 +28,6 @@ meta:
 color: "#E35050"
 ---
 
-
-### TL:DR Making your own app is lotsa work
-
-
 ### The problem
 
 For those who aren't aware, podcasts are basically a radio show, tailored to your interests, delivered straight to your phone every week (or month, or day..). If you can think of a subject, there is probably a podcast about it. Anyone can make a podcast, and podcasts often develop loyal (rabid) followings, as listeners develop a "best friend you've never actually spoken to" personal relationship with the creators.

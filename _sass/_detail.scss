@@ -51,19 +51,19 @@
 
   color: #202117;
   background-color: white;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 200%;
   padding-top: 90px;
+  font-weight: 300;
 
-    p {
+    p, ul {
       font-family: "Roboto Slab", serif;
       margin-bottom: 40px;
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 24px;
       font-weight: bold;
-      text-align: center;
     }
 
     img {
@@ -71,6 +71,7 @@
     }
 
     figure {
+      text-align: center;
       margin-bottom: 40px;
     }
 
@@ -103,7 +104,9 @@
 
     .post-content {
       h3{
+        font-size: 28px;
         margin-top: 70px;
+        margin-bottom: 20px;
       }
 
       img {

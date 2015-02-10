@@ -4,7 +4,7 @@
     <div class="post-custom-header row">
       <div class="post-introduction col-md-7">
         <h3>{{ page.summary.title }}</h3>
-        <p>{{ page.summary.content | markdownify }}</p>
+        {{ page.summary.content | markdownify }}
       </div>
       <div class="col-md-1"></div>
       <div class="post-meta col-md-4">
