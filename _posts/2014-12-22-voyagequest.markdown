@@ -8,6 +8,9 @@ cover_image: "voyagequest_cover.png"
 permalink: /voyagequest
 date: 2014-12-22 00:00:00
 
+summary:
+  content: ""
+
 # Style information
 color: "#202117"
 ---

@@ -1,3 +1,5 @@
+{% assign cover_image = 'page.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl %}
+
 <header class="header-detail {{ page.title | slugify | prepend: "post-style-" }}">
 
   <div class="container">
@@ -11,7 +13,7 @@
       <h1 class="post-title">{{ page.title }}</h1>
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
       <div class="post-cover-image">
-        <img src="{{ page.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl }}" />
+        <img src="{{ cover_image }}" srcset="{{ cover_image | split: '.' | join: "@2x." }} 2x" />
       </div>
     </div>
 

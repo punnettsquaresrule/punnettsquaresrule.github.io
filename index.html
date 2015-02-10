@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% for post in site.posts %}
+  
+  {% assign cover_image = 'post.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl %}
 
   <div class="post-section {{ post.title | slugify | prepend: "post-style-" }}">
 
@@ -13,7 +15,7 @@ layout: default
               <div class="post-description">{{ post.description | markdownify }}</div>
               <a class="btn btn-default btn-post btn-accessory" href="{{ post.url }}" role="button">{{ post.button_title }} <i class="fa fa-angle-right fa-lg"></i></a>
               <div class="post-cover-image">
-                <img src="{{ post.cover_image | prepend: "/assets/images/posts/" | prepend: site.baseurl }}" />
+                <img src="{{ cover_image }}" srcset="{{ cover_image | split: '.' | join: "@2x." }} 2x" />
               </div>
         </div>
         <div class="col-md-3"></div>
