@@ -28,7 +28,7 @@ $serrated-border-height: 47px;
 /** 
  * Includes
  */
-@import "bourbon";
+@import "bourbon/bourbon";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "mixins";
