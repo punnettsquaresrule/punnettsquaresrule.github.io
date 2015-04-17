@@ -18,7 +18,7 @@ summary:
     content: "Below you'll find a selection of various illustrations I've done recently. I believe illustrations can help communicate complex ideas in a fun, approachable way. Furthermore, they give a design a relatable personality and inject a human identity into technology. Generally I start with a loose sketch on paper, then take it into computer-land via Illustrator, Sketch, or occasionally Photoshop."
 website:
     title: Illustration blog
-    url: "http://katiemacoy.com"
+    url: "http://blog.katiemacoy.com"
 
 
 # Meta info
