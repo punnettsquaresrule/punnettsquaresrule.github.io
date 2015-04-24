@@ -13,7 +13,7 @@ title: Voyage Quest
 subtitle: Death to smartphones
 summary: 
     title: "Voyage Quest: worth a diploma"
-    content: "Voyage quest was my bachelors graduation project from the [Royal Academy of Art](http://www.kabk.nl). To earn my bachelors, I had to write a thesis and work on a year long project. The only constraint on chosing a project to work on was that it must be in some way interactive. I chose a problem that was on my mind at that moment. As a (then) recent smart phone convert, I became fascinated with peoples obsession and reliance on their smartphones and decided to make my project around it."
+    content: "Voyage quest was my bachelors graduation project from the [Royal Academy of Art](http://www.kabk.nl). I chose a problem that was on my mind at that moment. As a recent smart phone convert, I became fascinated with peoples obsession and reliance on their smartphones and decided to design a solution."
    
 
 # Meta info
@@ -30,20 +30,18 @@ color: "#202117"
 
 Coming from a generation where my childhood was generally untainted by computers, I still remember the phenomenon of people being together, focused solely on each other. I speak in the past tense because I literally can't remember a social gathering that wasn't constantly disrupted by smartphone usage in recent memory. 
 
-As a late convert to smartphone land, I had a unique perspective on my peers' usage of smartphones as an outsider. I witnessed people walking through the streets, like zombies, faces glued to the their screen, walking in a trance through busy streets. I experienced being deep into conversation with someone, and them unconsciously checking their phone and halting the conversation to read their Twitter/Facebook/whatever feed. I was flabbergasted as people would text me all day, and when we were finally in the same room together, they would spend the entire time texting other people. Most shocking of all to me, this was all socially acceptable behaviour.
+As a late convert to smartphone land, I had a unique perspective on my peers' usage of smartphones as an outsider. I witnessed people walking through the streets, like zombies, faces glued to the their screen. I experienced being deep into conversation with someone, and them unconsciously checking their phone and halting the conversation to read their Twitter/Facebook/whatever feed. I was flabbergasted as people would text me all day, and when we were finally in the same room together, they would spend the entire time texting other people. Most shocking of all to me, this was all socially acceptable behaviour.
 
 {% include figure.html src="/assets/images/posts/voyagequest/sign.jpg" caption="" retina="false" %}
 
 
-To be clear, I'm not against smartphones. I think actually think they're pretty great. However, I believe as constant connectivity becomes ubiquitous, I think it's important to be critical and conscious of what kind of role technology will play in our lives. That was the point of the project.
-
-Nicolas Carr put it more eloquently than I ever could: “As McLuhan suggested, media aren’t just channels of information. They supply the stuff of thought, but they also shape the process of thought. And what the Net seems to be doing is chipping away my capacity for concentration and contemplation. Whether I’m online or not, my mind now expects to take in information the way the Net distributes it: in a swiftly moving stream of particles. Once I was a scuba diver in the sea of words. Now I zip along the surface like a guy on a Jet Ski.”
+To be clear, I'm not against smartphones. I think actually think they're pretty great. However, I believe as constant connectivity becomes ubiquitous, I think it's important to be critical and conscious of what kind of role technology will play in our lives. That was the point of the project. Nicolas Carr put it more eloquently than I ever could: “As McLuhan suggested, media aren’t just channels of information. They supply the stuff of thought, but they also shape the process of thought. And what the Net seems to be doing is chipping away my capacity for concentration and contemplation. Whether I’m online or not, my mind now expects to take in information the way the Net distributes it: in a swiftly moving stream of particles. Once I was a scuba diver in the sea of words. Now I zip along the surface like a guy on a Jet Ski.”
 {% include figure.html src="/assets/images/posts/voyagequest/Vatican.jpg" caption="" retina="false" %}
 
 
 
 ### Concept
-To end the tyranny of smartphones, I decided to work with the addiction rather than against it. Preaching or shaming would only lead to polarisation. Therefore, I decided to make a smartphone app that would entice people into putting away their smart phones. Kind of ironic, but bare with me. 
+To end the tyranny of smartphones, I decided to work with the addiction rather than against it. Preaching or shaming about smartphone usages would only lead to polarisation. Therefore, I decided to make a smartphone app that would entice people into putting away their smart phones. Kind of ironic, but bare with me. 
 
 My aim was to create an app that, to the user, appeared only as a fun game. Meanwhile, I'd secretly be weening them off of their smartphone. The core game mechanic would be to reward users for doing things in the real world. 
 

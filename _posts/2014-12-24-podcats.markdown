@@ -12,8 +12,8 @@ button_title: View case study
 title: Podcats
 subtitle: Discover podcasts you love
 summary: 
-  title: "Podcats: A passion project"
-  content: "Podcats is a passion project to help people find new podcasts to listen to. As a total podcast addict, I found that I was often burning through my podcasts too quickly and had nothing to listen to. Podcats seeks to solve that problem by creating a digital community where people can reccomend pocasts together. Podcats was made in collaboration with [Niels de Hoog](http://nielsify.com/)."
+    title: "Podcats: A passion project"
+    content: "I am a podcast addict. I consume more podcasts daily than I do coffee. The problem we solved with podcats is our chronic shortage of good quality podcasts."
 website:
   title: Podcats site
   url: "http://podcatsapp.com"
@@ -30,34 +30,21 @@ color: "#E35050"
 
 ### The problem
 
-For those who aren't aware, podcasts are basically a radio show, tailored to your interests, delivered straight to your phone every week (or month, or day..). If you can think of a subject, there is probably a podcast about it. Anyone can make a podcast, and podcasts often develop loyal (rabid) followings, as listeners develop a "best friend you've never actually spoken to" personal relationship with the creators.
+Although there are a lot of podcasts providers none of them offer the discovarability we  desired.
 
-iTunes, the main podcast place where podcasts live, does provide a top list of interesting podcasts, but this list generally remains unchanged for months/years at a time with the big production podcast players. Popular podcasts remain popular, new guys don’t even stand a chance. Podcast listeners generally have a list of their favourites, but it's difficult to discover new podcasts outside of your bubble. 
-
-Furthermore, the discoverability of new podcasts through iTunes is wedged somewhere between 'abysmal' and 'completely useless'. Think of all of the amazing stuff you aren't hearing!
 
 {% include figure.html src="/assets/images/posts/podcats/podcats_problem.png" caption="Everyone loves This American Life, but what else out there?" retina="false" %}
 
 ### Concept
 
-When I was but a baby podcast listener, I found my podcasts via iTunes like the rest of the noobs. After professing my newfound love for podcasts to friends, I soon had a long list of requests pouring in that were even better than what I found on iTunes. I realised that there was an inexhaustible amount of podcasts floating out there in the abyss. Unfortunately for me, I do have an exhaustible amount of friends. 
+My other digital haunting grounds are reddit and hackernews. What I really like about those sites is the simple mechanic to unearth possible obscure information by the use of crowdsourced curration. With the number of podcasts out there, there had to be hidden gems we could unearth using the same mechanic.
 
 Thus, Podcats was born. Podcats is in essence, a way for anyone to say "hey, I like this podcast, you might too".
 
 {% include figure.html src="/assets/images/posts/podcats/podcats_concept.png" caption="The paper that started it all" retina="false" %}
 
-After the bud of an idea was there, it was up to Niels and I to decide what was feasible. Seasoned app developers as we were, we still had full time jobs and social lives to contend with. We tried to decipher what was the minimum viable product could be. We wanted to build an app with enough features to captivate users, but not so many features that we'd have to work on it for a hundred years before it was finished. The core of the idea was the ability to recommend podcasts to each other, and everything else was secondary. So at it's core, the app had to:
+We tackled the challenge of realising this ambitious product by defining a feasible but extremely usefull minimal viable product.
 
-- Display recommendations from other people
-- Accept recommendations to display
-
-A tried and tested application of this mechanic is Reddit/Hacker News/Product Hunt: a user can submit something, and all other users get one vote on whether or not it's good. What that results in is a list of content that the community finds interesting. Perfect for our concept! I'm a strong proponent of not reinventing the wheel, so we happily stole this mechanic for Podcats. The Reddit mechanic did add one more must have feature:
-
-- The ability (but not obligation) to log in
-
-Why a login? Users can only have vote, so we need to be able to track if you've already voted or not. We could do this based on device (though Apple is admittedly [not a fan](http://www.zdnet.com/article/apple-places-kill-date-on-apps-that-use-udid-device-identifiers/) of that practice), but it seemed to have more longevity to create a login: it opens the door to new features in a future release, and doesn't punish the user for changing devices.
-
-After we had established clearly what the app must do, it was time for me to get those ideas on (digital) paper:
 
 {% include figure.html src="/assets/images/posts/podcats/mvp.jpg" caption="emoticons because of reasons" retina="false" %}
 
