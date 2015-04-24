@@ -68,7 +68,7 @@ I generally start my interaction design process on paper so that I can quickly g
 
 I try to sketch out the most obvious ideas first, just to get it out of the way.
 
-{% include figure.html src="/assets/images/posts/podcats/IxD.jpg" caption="Sketching out some ideas" retina="false" %}
+{% include figure.html src="/assets/images/posts/podcats/IxD.JPG" caption="Sketching out some ideas" retina="false" %}
 
 After the obvious ideas, I try to think something completely different (i.e. what if this interface was gesture only, no buttons allowed? or: what if this app had no typography in it?) These small exercises force me to think of unconventional ways of laying out the interface and prevent the designs from becoming stale. I almost never use them in full as an interaction, but the often lead to little elements the make it into the final designs.
 
