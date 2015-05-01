@@ -1,7 +1,7 @@
 # Site settings
 title: Katie Macoy
 email: hello@katiemacoy.com
-description: Portfolio website of Katie Macoy: American illustrator and designer based in Amsterdam.
+description: "Portfolio website of Katie Macoy: American illustrator and designer based in Amsterdam."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://punnettsquaresrule.github.io/" # the base hostname & protocol for your site
 
