@@ -62,7 +62,7 @@ Based on our protagonist, we crafted a game, here's a small sample:
 For the full experience, you can download "What are we going to do meow now?" [here](http://globalgamejam.org/2015/games/what-are-we-going-do-meow).
 
 ### Tutorial Illustrations
-At my previous job, we were tasked to make a turotial for an iPhone app more accesible and easier to understand. I did some quick sketches to see if visuals were a possible solution.
+At my previous job, we were tasked to make a tutorial for an iPhone app more accesible and easier to understand. I did some quick sketches to see if visuals were a possible solution.
 {% include figure.html src="/assets/images/posts/illu/chest.png" caption="" retina="false" %}
 {% include figure.html src="/assets/images/posts/illu/tower.png" caption="" retina="false" %}
 {% include figure.html src="/assets/images/posts/illu/map.png" caption="" retina="false" %}

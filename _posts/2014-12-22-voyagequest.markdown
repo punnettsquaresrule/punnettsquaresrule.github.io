@@ -123,7 +123,7 @@ My main points of feedback were curiosity about what game could be if it were fl
 
 
 ##The end? 
-The entire time I was working on this project, I was also working 36 hours per week at a tech start up as an iOS developer. Pro tip: if you want to achieve a burn out, work and study full time for 2 years. I also had a tough year emotionally as a result of things happening in my personal life. Despite all of the practical challenges, Voyage Quest still emerged. 
+The entire time I was working on this project, I was also working 36 hours per week at a tech start up as an iOS developer. Despite all of the practical challenges, Voyage Quest still emerged. 
 
 After I crossed the finish line at graduation, a saw the game as a symbol of all of the stress and unhappiness that had plagued me for the past year. I still believe in the concept and topic, but I think it's better to let some things die to move on to bigger and better projects. What can't be erased are the huge array skills I gained from building this game. I know how to produce game art, code in cocos2d, tackle procrastination, and push through stress to make sure a product is finished. 
 
