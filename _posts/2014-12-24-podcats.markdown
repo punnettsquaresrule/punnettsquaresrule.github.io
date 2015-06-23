@@ -13,7 +13,7 @@ title: Podcats
 subtitle: Discover podcasts you love
 summary: 
   title: "Podcats: A passion project"
-  content: "Podcats is a passion project to help people find new podcasts to listen to. As a total podcast addict, I found that I was often burning through my podcasts too quickly and had nothing to listen to. Podcats seeks to solve that problem by creating a digital community where people can reccomend pocasts together. Podcats was made in collaboration with [Niels de Hoog](http://nielsify.com/)."
+  content: "Podcats is a passion project to help people find new podcasts to listen to. As a total podcast addict, I found that I was often burning through my podcasts too quickly and had nothing to listen to. Podcats seeks to solve that problem by creating a digital community where people can recommend pocasts together. Podcats was made in collaboration with [Niels de Hoog](http://nielsify.com/)."
 website:
   title: Podcats site
   url: "http://podcatsapp.com"
