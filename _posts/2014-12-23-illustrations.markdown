@@ -34,13 +34,7 @@ background_image: "illustrations_background.png"
 
 ### Helios Logo
 For [work](http://www.team51.nl), I was asked to make a logo for a project the team was working on called Helios. Team51's style and name is based around a space/sci-fi theme, and Helios is the god of the sun in Greek mythology. Furthermore, the name Helios was inspired by the naming of space missions, so I took style inspiration from the badges astronauts wear.
-{% include figure.html src="/assets/images/posts/illu/patches.jpg" caption="Inspiration" retina="false" %}
-
-My first sketch had some good elements in it, but was too illustrative to work as a logo. Furthermore, it contains conflicting styles, a very cartoony rocket juxtaposed with an abstract sun.  
-{% include figure.html src="/assets/images/posts/illu/Artboard 1.png" caption="First sketch" retina="true" %}
-
-I took the concept of the above illustration and tried to simplify it into something that works as more of an icon while keeping the concept of a space mission badge. The new logo is more modern, works large and small, and in black and white, while preserving the elements of sun and space. 
-{% include figure.html src="/assets/images/posts/illu/helios.png" caption="Final work" retina="true" %}
+{% include figure.html src="/assets/images/posts/illu/helios.png" caption="Final work" retina="false" %}
 
 ###Color Chasers
 At [work](http://www.aliensareamongus.com), I was responsible for creating a concept for an iPad app that would have a color matching game mechanic. My concept was an app where small children could take an iPad, see an animal on the screen where the animal was missing it's fur color, and find the missing color. If they got the color right, the animal would do something funny as a reward. The visual style was fun and playful as the app was being made for children. Below are a few drawings I made for the prototype: 
@@ -49,17 +43,13 @@ At [work](http://www.aliensareamongus.com), I was responsible for creating a con
 {% include figure.html src="/assets/images/posts/illu/zebra.png" caption="" retina="false" %}
 {% include figure.html src="/assets/images/posts/illu/birds.png" caption="" retina="false" %}
 {% include figure.html src="/assets/images/posts/illu/roar-anim.gif" caption="" retina="false" %}
-This project is currently on hold until we're less busy at work.  
 
-###Global Game Jam 
-This year I participated in the Global Game Jam, a hackathon where you create a video game in two days. Due to sleep deprivation or possibly group think, our concept for a protagonist became a fat, pink, murderous amputee cat. The task fell to me draw said cat based on that briefing:
-{% include figure.html src="/assets/images/posts/illu/kitty.png" caption="Lovingly referred to as Joe" retina="false" %}
+###Business Illustrations
+Illustrations to sell a product
+{% include figure.html src="/assets/images/posts/illu/LiberateYourContent.png" caption="Liberate your content" retina="true" %}
+{% include figure.html src="/assets/images/posts/illu/SpreadYourContent.png" caption="Spread your content" retina="true" %}
+{% include figure.html src="/assets/images/posts/illu/MeasureYourImpact.png" caption="Measure your impact" retina="true" %}
 
-Based on our protagonist, we crafted a game, here's a small sample:
-
-{% include figure.html src="/assets/images/posts/illu/ggg.png" caption="Scenery elements drawn by Roel Nuyts" retina="true" %}
-
-For the full experience, you can download "What are we going to do meow now?" [here](http://globalgamejam.org/2015/games/what-are-we-going-do-meow).
 
 ### Tutorial Illustrations
 At my previous job, we were tasked to make a tutorial for an iPhone app more accesible and easier to understand. I did some quick sketches to see if visuals were a possible solution.
