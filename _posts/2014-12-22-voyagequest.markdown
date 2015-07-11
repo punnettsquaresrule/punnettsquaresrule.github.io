@@ -2,7 +2,7 @@
 layout: post
 cover_image: "voyagequest_cover.png"
 permalink: /voyagequest
-date:   2014-12-24 00:00:00
+date:   2014-06-24 00:00:00
 
 # Front page
 description: "I made an art project called Voyage Quest to ween people off of their smartphones." # Supports Markdown format
