@@ -25,7 +25,6 @@ meta:
 # Style information
 color: "#202117"
 ---
-
 ### The Problem
 
 Coming from a generation where my childhood was generally untainted by computers, I still remember the phenomenon of people being together, focused solely on each other. I speak in the past tense because I literally can't remember a social gathering that wasn't constantly disrupted by smartphone usage in recent memory. 
@@ -122,10 +121,10 @@ My main points of feedback were curiosity about what game could be if it were fl
 {% include figure.html src="/assets/images/posts/voyagequest/diploma.jpg" caption="running away before they change their mind and take my diploma back" retina="false" %}
 
 
-##The end? 
+###The end? 
 The entire time I was working on this project, I was also working 36 hours per week at a tech start up as an iOS developer. Despite all of the practical challenges, Voyage Quest still happened. 
 
-After I crossed the finish line at graduation, a saw the game as a symbol of all of the stress and unhappiness that had plagued me for the past year. I still believe in the concept and topic, but I think it's better to let some things die to move on to bigger and better projects. What can't be erased are the huge array skills I gained from building this game. I know how to produce game art, code in cocos2d, tackle procrastination, and push through stress to make sure a product is finished. 
+After I crossed the finish line at graduation, a saw the game as a symbol of all of the stress that had plagued me for the past year. I still believe in the concept and topic, but I think it's better to let some things die to move on to bigger and better projects. What can't be erased are the huge array skills I gained from building this game. I know how to produce game art, code in cocos2d, tackle procrastination, and push through stress to make sure a product is finished. 
 
 The code base is there, the game works, so who knows? Maybe someday I'll pick this up again; until then the smart phone tyranny will have to remain...
 
