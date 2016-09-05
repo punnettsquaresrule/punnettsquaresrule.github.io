@@ -1,0 +1,115 @@
+---
+layout: post
+cover_image: "tido_cover.png"
+permalink: /tido
+date:   2014-01-01 00:00:00
+
+# Front page
+description: "I designed a responsive launch page for a new music app" # Supports Markdown format
+button_title: View case study 
+
+# Detail page
+title: Music app
+subtitle: Responsive and sleek one page website
+summary: 
+  title: "Designing a one page website"
+  content: "Tido hired me to make a website to showcase their latest app. The company wanted to focus on enticing potential users with a sleek, professional interface to show off the app. The company had an established brand that I needed to adhere to, but as this was a new product I was given some freedom to explore."
+
+
+# Meta info
+meta:
+  tasks: "UI, UX, Graphic Design"
+  type: Website
+  duration: "a few weeks"
+
+# Style information
+color: "#8144BE"
+---
+
+### First steps
+The in-house designer talked me through the app, the brand, and the goals of the website. I was given documentation for the branding, company personality, and user stories. I was also given a first look at the app so I could really understand the features.
+{% include figure.html src="/assets/images/posts/tido/tidosent.jpg" caption="" retina="false" %}
+
+### Inspiration
+Based on the documentation and the feel of the app, I started to look around at other websites that could serve as inspiration. I decided to go in a direction that blended professionalism and fun by showing large, enticing images and animations while keeping the interface very simple. My initial idea was to try to keep the website looking as seamless as possible by reducing divisions and colors.
+
+I decided to let the app do the talking as much as possible. I found examples of other designs doing this successfully and created quick moodboards to to talk through with the team.
+
+### Wireframing
+
+I quickly sketched out 5 different wireframes on paper. For each layout I created a mobile version first, then a desktop version.
+
+{% include figure.html src="/assets/images/posts/tido/wireframe0.jpg" caption="" retina="false" %}
+
+{% include figure.html src="/assets/images/posts/tido/wireframe.jpg" caption="" retina="false" %}
+
+I talked each design through to see what was working and what wasn't. Eventually we settled on a rough layout and I proceeded to clean it by creating the wireframe digitially.
+
+{% include figure.html src="/assets/images/posts/tido/wireframev2.jpg" caption="" retina="true" %}
+
+We iterated on this wireframe a few times, ensuring it worked well on all screen sizes and fulfilled all of the user stories. We also collaborated with the copy writer and branding people to make sure it was they had in mind.
+
+### Early animation prototyping
+At this point, I also already started prototyping various behaviors through simple animations to get a feel for what was working and what wasn't.
+
+In the animation below, I simulate how a chat function would work. The team was concerned that a chat could be intrusive, so I quickly mocked up how it would sit on the site.
+
+{% include figure.html src="/assets/images/posts/tido/chat.gif" caption="" retina="true" %}
+
+I also started more fine-tuning animation prototypes as soon as I started the visual design process. The website being so simple meant that every detail needed to be perfect and feel right. I'm a big proponent of basically constantly prototyping because design can influence the animation, but the animation can also influence the design.
+
+{% include figure.html src="/assets/images/posts/tido/anim1.gif" caption="" retina="false" %}
+
+There are so many animation programs today, even designers who no animation background can quickly mock things up. These animations were created in Keynote in only a matter of minutes.
+
+The animation below was interesting. We were flirting with the idea of using a subtle video in the background a la airbnb. It gives context for the app and looks sleek and attractive. However, with the isometric iPad image on top, the piano just looked enormous and comical. We knew it wasn't working and scrapped the idea.
+
+{% include figure.html src="/assets/images/posts/tido/anim2.gif" caption="" retina="false" %}
+
+### Visual design
+After a few iterations of the higher fidelity wireframes, we were ready to move onto the visual portion. I knew from the start that this would take many iterations to get right as it needed to capture the brand while being a standalone product. It was a tricky balance. 
+
+I started out not focusing more on getting the right feel than strictly adhering to the brand. I also wanted to present a wide variety of visual options to compare and contrast. In my first iteration I presented four very different visual designs, designed for both mobile and web.
+
+{% include figure.html src="/assets/images/posts/tido/designv1.jpg" caption="" retina="true" %}
+
+In the following iterations, I focused a lot on proportions. I would of quickly load a dummy website with just an image of the design into my mobile and web browser to make sure the scale felt right.
+
+{% include figure.html src="/assets/images/posts/tido/designv2.jpg" caption="" retina="true" %}
+
+Working with the in-house designer, we narrowed down a few designs to present to the team and cleaned them up.
+{% include figure.html src="/assets/images/posts/tido/designv3.jpg" caption="" retina="true" %}
+
+The team wasn't convinced the website was giving the right feel - the feedback was that it felt too corporate. Luckily the layout was more or less final, so this gave me the opportunity to play with colors, fonts, and iconography to freshen up the design.
+
+I used patterns and images I knew wouldn't fit the brand, such as the pink repeating pattern, just to stretch my limits and have something to contrast against.
+
+ It helps to have something aggressively corporate and aggressively playful, so I had two benchmarks. I then use those benchmarks to aim for something in-between.
+{% include figure.html src="/assets/images/posts/tido/designv4.jpg" caption="" retina="true" %}
+
+Eventually we all agreed that lightening up the colors and adding more images made the website feel more true to brand while not being too corporate. Then, some new features were added: testimonials and a newsletter sign up. At this point the visual language for the website was more or less established so it was easy to work the additional features in.
+{% include figure.html src="/assets/images/posts/tido/designv5.jpg" caption="" retina="true" %}
+
+I used a subtle paper texture to break up these sections up from the other sections on the website. The paper was an intentional choice as the app connects digital and physical, so it's nice to have subtle reminders of physical objects present on the site.
+{% include figure.html src="/assets/images/posts/tido/designv6.jpg" caption="" retina="true" %}
+
+### Development
+
+When all of the user stories were fulfilled, the brand guidelines were followed, and everyone was satisfied, it was time to put the project online. I cleaned up my Sketch file to hand it over to the developer.
+
+{% include figure.html src="/assets/images/posts/tido/final.jpg" caption="" retina="false" %}
+
+
+I put the sketch file in Zeplin, which automatically creates a super useful style guide for me.
+
+{% include figure.html src="/assets/images/posts/tido/zeplin.jpg" caption="" retina="false" %}
+
+The development is currently underway and I'm trying to assist the developer where ever possible with clear, visual feedback.
+
+{% include figure.html src="/assets/images/posts/tido/feedback.jpg" caption="" retina="true" %}
+
+### Final thoughts
+It was a great challenge to work with an existing brand guide and bring a product to life through the website. Being a designer from outside the company, I was in a unique position to also be new to the product, and thus more empathetic toward the user. I'll be interested to see what user testing gleans from this website and hope to keep improving and iterating on it.
+
+{% include figure.html src="/assets/images/posts/tido/tido.png" caption="" retina="false" %}
+

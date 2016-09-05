@@ -50,7 +50,7 @@ A very simple iteration of this concept is something on screen that reacts to so
 {% include figure.html src="/assets/images/posts/voyagequest/Startconcept.png" caption="" retina="false" %}
 In essence, it's quite silly. It doesn't feel like you've broken any barriers down by doing that, but in truth you've just connected digital and physical. However, knocking over fruit isn't quite groundbreaking enough to make an engaging game to shatter an addiction.
 
-###Cue gamification 
+### Cue gamification 
 Gamification is a bit of dumb buzzword, but there's a lot of power behind the concept. I needed to learn how to make an addictive, engaging game if I had any hope of succeeding in my mission. Then came my saviour, Jane McGonigal, who wrote this lovely book:
 
 {% include figure.html src="/assets/images/posts/voyagequest/reality.jpg" caption="I'm aware the title contradicts my entire project, shhhh" retina="false" %}
@@ -76,7 +76,7 @@ All good feedback: I needed to go back to the drawing board to connect the threa
 ###Pivot
 I decided to rework the story to put a more dire need to end the addiction to devices. The new story became: in a dystopian future, people are so addicted to their devices that society is a cultureless blob. You, the protagonist, have recently lost your device and have your eyes opened to what the world has become. Your mission is to rid the world of devices via a series of challenges (that take place in the real world).
 
-###Visual design
+### Visual design
 With the new story, the colorful pixel art didn't fit the new dystopian storyline. To rework the style, I turned to one of my all time favorite movies for a inspiration, Blade Runner. (I'll take any excuse to rewatch Blade Runner really)
 {% include figure.html src="/assets/images/posts/voyagequest/Bladerunner.jpg" caption="What a dreamboat" retina="false" %}
 
@@ -84,12 +84,12 @@ I decided to make the scenes black and white, with a heavy emphasis on contrast,
 {% include figure.html src="/assets/images/posts/voyagequest/doors-compressor.gif" caption="" retina="false" %}
 
 
-###Done is better than perfect
+### Done is better than perfect
 Part of having no restrictions while making a project means it's easy to slide into a void of refining, perfecting, and exploring every possible avenue. Even the assignment: "smartphones are intrusive, make a game about that" could produce an infinite amount of games. Even this point, I had read book after book about everything from psychology to technology to gamification. Enough was enough. Based on feedback from my peers and professors, I decided it was time to stop exploring and start making the game in earnest.
 {% include figure.html src="/assets/images/posts/voyagequest/In progress.jpg" caption="" retina="false" %}
 
 
-###Produce, Produce, Produce
+### Produce, Produce, Produce
 My first step was to create a storyboard that encompassed the story and three challenges that could take place in the real world, but within the confines that I would have to present this project in a gallery (so no making users walk a mile or something).
 
 After the practicalities were established, I had to create the assets, learn enough of cocos2d to string a game together, and make a technical plan. Production included creating all the assets, including many hand drawn frame-by-frame animations which were almost the death of me. Then of course programming, testing, wrangling iPhones, and building a website/identity around the game. The actual core game was built in about three weeks of crazy long days. One of the game levels required the users to scream into the iPhone, so I think I definitely annoyed my neighbours with my testing. 
@@ -99,7 +99,7 @@ After eight months of tribulations, doubts, research, and learning, I had a work
 {% include figure.html src="/assets/images/posts/voyagequest/Jump-compressor.gif" caption="jump for joy" retina="false" %}
 
 
-###Name choice
+### Name choice
 Oddly, one of the hardest things to do was name this game. It had the working title of Intervention at the beginning, but that seemed a tad on the preachy side. However, somehow I could not think of anything better, even up until the point where it was time to put in the app store. Felt a bit like this: 
 {% include figure.html src="/assets/images/posts/voyagequest/pbf.jpg" caption="" retina="false" %}
 
@@ -108,20 +108,20 @@ In the end, I chose the quite silly name "Voyage Quest" as a result of a brainst
 {% include figure.html src="/assets/images/posts/voyagequest/Default.png" caption="The Voyage Quest logo, gritty hand drawn" retina="true" %}
 
 
-###Present, Present, Present
+### Present, Present, Present
 One important aspect of my graduation was how I chose to present my work. Graduating students have to display their work in an exhibition for a week. I built three custom stands to hold iPhones and placed them in a dark room. Three iPhones because part of the game involved working together. Inside the stands, I installed a projector that showed everything going on on the screen to entice passerbys. I attached the iPhone with anti-theft cords, and allowed people to interact with the game however they chose. I lurked in the corner, and people not realising that it was my work spoke candidly about what I made, which was pretty great feedback. 
 {% include figure.html src="/assets/images/posts/voyagequest/plan1.png" caption="A sketch of my plan" retina="false" %}
 
 {% include figure.html src="/assets/images/posts/voyagequest/grad.jpg" caption="Using a circular saw was, to date, one of the scariest experiences of my life" retina="false" %}
 
 
-###Graduate! 
+### Graduate! 
 
 My main points of feedback were curiosity about what game could be if it were fleshed out more, and some tweaks in the interface that would make easier to understand. Despite a few negative points, reactions were mostly positive, and I was deemed fit to graduate. Photo evidence below.
 {% include figure.html src="/assets/images/posts/voyagequest/diploma.jpg" caption="running away before they change their mind and take my diploma back" retina="false" %}
 
 
-###The end? 
+### The end? 
 The entire time I was working on this project, I was also working 36 hours per week at a tech start up as an iOS developer. Despite all of the practical challenges, Voyage Quest still happened. 
 
 After I crossed the finish line at graduation, a saw the game as a symbol of all of the stress that had plagued me for the past year. I still believe in the concept and topic, but I think it's better to let some things die to move on to bigger and better projects. What can't be erased are the huge array skills I gained from building this game. I know how to produce game art, code in cocos2d, tackle procrastination, and push through stress to make sure a product is finished. 

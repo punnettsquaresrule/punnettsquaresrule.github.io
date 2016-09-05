@@ -167,7 +167,7 @@ One of the most common questions about Podcats is the name. We started out with 
 
 {% include figure.html src="/assets/images/posts/podcats/Portrait 2.png" caption="This happy blue cat needs a name" retina="true" %}
 
-###Hindsight is 20/20
+### Hindsight is 20/20
 
 Making this app was a learning process. If I could do it all over again, I would certainly do a few things differently. 
 
@@ -179,7 +179,7 @@ The consequences of this lack of foresight in Podcats were basically our assumpt
 
 {% include figure.html src="/assets/images/posts/podcats/usage.png" caption="Those numbers could be a bit better..." retina="true" %}
 
-###Try it yourself
+### Try it yourself
 
 If you'd like to get into podcasts, or get more into podcasts, please check out Podcats in the the [app store](https://itunes.apple.com/us/app/podcats-podcast-discovery/id932391526?mt=8). If you squint really hard, you might even be able to see the blood, sweat, and tears that went into it.
 
