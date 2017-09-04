@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Asul');
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
+
+
+body {
+    padding-top: 54px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 17px;
+    color: --text-color;
+}
+
+h1 {
+    font-family: 'Asul', sans-serif;
+    color: --text-color;
+}
+
+h2 {
+    font-family: 'Asul', sans-serif;
+    color: --text-color;
+}
+
+h3 {
+    font-family: 'Asul', sans-serif;
+    color: --text-color;
+}
+
+h4 {
+    font-family: 'Asul', sans-serif;
+    color: --text-color;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+element {
+  text-color: #444444;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #cc0000;
+}
+
+.hero-text p {
+  font-size: 22px;
+  line-height: 170%;
+  word-wrap: break-word;
+  max-width: 700px;
+}
+
+p:hover, h1:hover, a:hover {
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    border-radius: 0px;
+    padding-right: 30px;
+}
+
+.card-body {
+    padding: unset;
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+
+.card-body h2, p {
+    color: #444444;
+}
+
+.card-title {
+  padding-top: 20px;
+}
+
+.case-studies {
+    padding-bottom: 30px;
+}
+
+.card-img-top {
+  border-radius: unset;
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+   }
+
+   .card-img-top:hover {
+      opacity: 0.9;
+}
